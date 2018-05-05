@@ -16,8 +16,7 @@ h1, h3 {
 	color: #160075;
 }
 
-/** Home Page Styles **/
-
+/** Default page styles **/
 .content-body {
 	position: relative;
 	margin: 70px auto 0px auto;
@@ -40,7 +39,10 @@ h1, h3 {
 	letter-spacing: 1.36px;
 }
 
-.page-title-story {
+/** Home page Styles **/
+.story-title {
+	font-weight: 400;
+	font-size: 1.375em;
 	border-bottom: 2px solid #4EC1D8;
 }
 
@@ -48,12 +50,6 @@ h1, h3 {
 	margin: 20px auto;
 	width: 100%;
 	max-width: 620px;
-}
-
-.story-title {
-	font-weight: 400;
-	font-size: 1.375em;
-	border-bottom: 2px solid #4EC1D8;
 }
 
 .story-btn {
@@ -67,6 +63,11 @@ h1, h3 {
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
+}
+
+/** Story Page Styles **/
+.page-title-story {
+	border-bottom: 2px solid #4EC1D8;
 }
 
 .story-info-btns {
@@ -147,6 +148,7 @@ h1, h3 {
 	cursor: pointer;
 }
 
+/* MENU NAV START */
 .menu-bar {
 	background-color: #160075;
 	position: fixed;
@@ -368,6 +370,7 @@ svg {
 		margin: 0 auto 40px auto !important;
 	}
 }
+/* MENU NAV END */
 
 @media (max-width: 375px) {
 
