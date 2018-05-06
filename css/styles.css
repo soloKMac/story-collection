@@ -11,6 +11,10 @@ a {
 	color: #fff;
 }
 
+a:hover {
+	color: #4EC1D8;
+}
+
 h1, h3 {
 	font-family: 'Open Sans';
 	color: #160075;
@@ -64,6 +68,9 @@ h1, h3 {
 	text-align: center;
 	text-decoration: none;
 }
+.story a {
+	color: #ffffff;
+}
 
 /** Story Page Styles **/
 .page-title-story {
@@ -104,8 +111,38 @@ h1, h3 {
 	margin: 10px auto;
 }
 
+.chapter-list {
+	display: flex;
+}
+
+.chapter-list ul {
+	margin: 20px 20px 20px 30px;
+	padding: 5px;
+}
+.chapter-list ul li {
+	list-style: none;
+	padding: 10px 0;
+}
+.chapter-list li a span {
+	font-weight: bold;
+}
+
+.chapter-list a:hover {
+		border-bottom: solid 2px #4EC1D8;
+}
+
+.chapter-list a {
+	color: #160075;
+}
+
 .story-block {
 	margin-top: 20px;
+	padding: 5px;
+	color: #000000;
+}
+
+.story-block a:hover {
+	box-shadow: 1px 1px 1px #000;
 }
 
 .story-image {
@@ -124,11 +161,7 @@ h1, h3 {
 	border-style: none;
 	text-align: center;
 	text-decoration: none;
-}
-
-.index-btn a {
-	text-decoration: none;
-	color: #ffffff;
+		color: #ffffff;
 }
 
 .index-btn a:hover {
@@ -368,6 +401,17 @@ svg {
 	.story {
 		/*margin-left: 0 !important;*/
 		margin: 0 auto 40px auto !important;
+	}
+
+	.chapter-index {
+		 padding: 0 10%;
+	}
+	.chapter-list {
+		display: block;
+	}
+	.chapter-list ul {
+		margin: 0 auto 0 20px;
+		padding: 0;
 	}
 }
 /* MENU NAV END */
