@@ -5,12 +5,38 @@
 
 body {
   overflow-x: hidden;
+	height: 100vh;
+}
+
+#background-index {
 	background:
-	linear-gradient(
-		rgba(),
-		rgba()
-		),
-		url(/img/lennart-heim-433084-unsplash.jpg);
+    -webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 1%,rgba(255,255,255,0) 100%),
+		-webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22,0,117,0) 100%),
+    /* bottom, image */
+    url("../img/lennart-heim-433084-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#background-absolute {
+	background:
+    -webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 1%,rgba(255,255,255,0) 100%),
+		-webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22,0,117,0) 100%),
+    /* bottom, image */
+    url("../img/jonathan-denney-259703-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#background-empress {
+	background:
+		-webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 1%,rgba(255,255,255,0) 100%),
+		-webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22,0,117,0) 100%),
+		/* bottom, image */
+		url("../img/dhaval-parmar-529684-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 a {
