@@ -5,6 +5,11 @@
 
 body {
   overflow-x: hidden;
+	linear-gradient(
+		rgba(),
+		rgba()
+		),
+		url(/story-collection/img/lennart-heim-433084-unsplash.jpg);
 }
 
 a {
