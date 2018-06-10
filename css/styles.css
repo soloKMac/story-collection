@@ -2,15 +2,17 @@
 * {
 	text-decoration: none;
 }
+/******* CONSOLIDATE BUTTON STYLES ********/
 
 body {
   overflow-x: hidden;
 	height: 100vh;
+	Font-family: 'Open Sans' !important;
 }
 
 #background-index {
 	background:
-    -webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 1%,rgba(255,255,255,0) 100%),
+    -webkit-linear-gradient(top, rgba(255,255,255,0.85) 0%,rgba(255,255,255,0.80) 1%,rgba(255,255,255,0) 100%),
 		-webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22,0,117,0) 100%),
     /* bottom, image */
     url("../img/lennart-heim-433084-unsplash.jpg");
@@ -20,7 +22,7 @@ body {
 
 #background-absolute {
 	background:
-    -webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 1%,rgba(255,255,255,0) 100%),
+    -webkit-linear-gradient(top, rgba(255,255,255,0.85) 0%,rgba(255,255,255,0.80) 1%,rgba(255,255,255,0) 100%),
 		-webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22,0,117,0) 100%),
     /* bottom, image */
     url("../img/jonathan-denney-259703-unsplash.jpg");
@@ -30,7 +32,7 @@ body {
 
 #background-empress {
 	background:
-		-webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.95) 1%,rgba(255,255,255,0) 100%),
+		-webkit-linear-gradient(top, rgba(255,255,255,0.85) 0%,rgba(255,255,255,0.80) 1%,rgba(255,255,255,0) 100%),
 		-webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22,0,117,0) 100%),
 		/* bottom, image */
 		url("../img/dhaval-parmar-529684-unsplash.jpg");
@@ -43,9 +45,9 @@ a {
 	color: #fff;
 }
 
-a:hover {
+/*a:hover {
 	color: #4EC1D8;
-}
+}*/
 
 h1, h3 {
 	font-family: 'Open Sans';
@@ -57,6 +59,10 @@ h1, h3 {
 	position: relative;
 	margin: 70px auto 0px auto;
 	z-index: 0;
+	background: rgba(255, 255, 255, 0.70);
+	padding: 20px;
+	max-width: 800px !important;
+	border-radius: 4px;
 }
 
 .page-title-body {
@@ -91,17 +97,16 @@ h1, h3 {
 .story-btn {
 	position: relative;
 	float: right;
-	background-color: #160075;
-	box-shadow:2px 3px 0 #FD5859;
+	border: 1px solid #160075;
 	border-radius: 4px;
 	padding: 10px 16px;
-	border-style: none;
-	color: #ffffff;
+	color: #160075;
 	text-align: center;
 	text-decoration: none;
 }
 .story a {
-	color: #ffffff;
+	color: #160075;
+	font-weight: 600;
 }
 
 /** Story Page Styles **/
@@ -115,23 +120,21 @@ h1, h3 {
 }
 .story-info-btns a {
 	text-decoration: none;
+	font-weight: 600;
 }
 .story-info-btns a:hover {
-	background-color:#4EC1D8;
-	box-shadow:2px 3px 0 #160075;
+	background-color: #4EC1D8;
 	cursor: pointer;
 	text-decoration: none;
-	color:#fff;
 }
 
 .info-btn{
+	border: 1px solid #160075;
+	border-radius: 4px;
 	position: relative;
-	background-color: #160075;
-	box-shadow:2px 3px 0 #FD5859;
 	border-radius: 4px;
 	padding: 10px 16px;
-	border-style: none;
-	color: #ffffff;
+	color: #160075;
 	text-align: center;
 	text-decoration: none;
 	margin: 0 10px;
@@ -144,33 +147,55 @@ h1, h3 {
 }
 
 .chapter-list {
-	display: flex;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 600px;
 }
 
 .chapter-list ul {
-	margin: 20px 20px 20px 30px;
+	margin: 20px auto;
 	padding: 5px;
 }
 .chapter-list ul li {
 	list-style: none;
-	padding: 10px 0;
-}
-.chapter-list li a span {
-	font-weight: bold;
-}
-
-.chapter-list a:hover {
-		border-bottom: solid 2px #4EC1D8;
+	margin: 35px 0 5px 0; /*TRBL*/
+	width: 100%;
+	max-width: 600px;
 }
 
-.chapter-list a {
+/*.chapter-list a {
+	padding: 10px;
+	text-align: left;
+	font-size: 22px;
+	line-height: 1.42;
+	font-weight: 400;
+	/*text-shadow: 1px 1px 1px rgba(0,0,0, 0.4);
+}*/
+
+.chapter-list a i {
+	padding: 10px;
+}
+
+.chapter-list li a {
 	color: #160075;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 1.42;
+	border-radius: 4px;
+	padding: 10px 24px;
+	/*background-color: #160075;*/
+	margin: 15px;
+}
+
+.chapter-list li a:hover {
+	color: #160075;
+	border: 1px solid #160075;
 }
 
 .story-block {
 	margin-top: 20px;
 	padding: 5px;
-	color: #000000;
+	color: #000;
 }
 
 .story-block a:hover {
@@ -185,19 +210,17 @@ h1, h3 {
 .index-btn {
 	position: relative;
 	float: left;
-	background-color: #160075;
-	box-shadow:2px 3px 0 #FD5859;
+	border: 1px solid #160075;
 	border-radius: 4px;
 	padding: 10px 16px;
 	margin-top: 40px;
-	border-style: none;
 	text-align: center;
 	text-decoration: none;
-		color: #ffffff;
+	color: #160075;
 }
 
 .index-btn a:hover {
-	color: #ffffff;
+	color: #160075;
 	text-decoration: none;
 }
 
