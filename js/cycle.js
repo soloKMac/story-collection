@@ -6,7 +6,7 @@ var chapters=new Array(
 "abso-ch3.html");
 
 //The above is all you need to change!
-//Note for me: Not really, you still have to change the index number of each page and declare it var ThisPageNumber=2;
+//Note for me: Not really, you still have to change the index number on each page and declare it var ThisPageNumber=2;
 //We want to automatically discover the number of files in the array
 
 var NumberOfFiles=chapters.length;
