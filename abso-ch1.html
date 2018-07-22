@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <title>Absolution - Chapter 1: At the Museum</title>
+  </head>
+  <body id="background-index">
+
+  	<div class="menu-bar">
+
+        <nav class="topnav">
+         <a href="#" onclick="openNav()">
+           <svg width="30" height="25" id="icoOpen">
+               <path d="M0,5 30,5" stroke="#fff" stroke-width="3"/>
+               <path d="M0,14 30,14" stroke="#fff" stroke-width="3"/>
+               <path d="M0,23 30,23" stroke="#fff" stroke-width="3"/>
+           </svg>
+         </a>
+        </nav>
+
+        <nav class="topnav-m">
+         <a href="#" onclick="openNavM()">
+           <svg width="30" height="25" id="icoOpen">
+               <path d="M0,5 30,5" stroke="#fff" stroke-width="3"/>
+               <path d="M0,14 30,14" stroke="#fff" stroke-width="3"/>
+               <path d="M0,23 30,23" stroke="#fff" stroke-width="3"/>
+           </svg>
+         </a>
+        </nav>
+
+      </div>
+
+        <div class="sidebar" id="sideNavigation">
+          <a href="javascript:void(0)" class="closebtn box" onclick="closeNav()">
+            <svg width="30" height="30" viewbox="0 0 40 40">
+            <path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+            </svg></a>
+        	<ul>
+        		<li>
+        			<a href="#">Story Index</a>
+        		</li>
+        		<li>
+        			<a href="#">Gallery</a>
+        		</li>
+        		<li>
+        			<a href="#">About the Author</a>
+        		</li>
+            <li class="copyright">
+               © 2018
+            </li>
+        	</ul>
+
+        </div>
+
+        <div class="sidebar-m" id="sideNavigation-m">
+          <a href="javascript:void(0)" class="closebtn box" onclick="closeNavM()">
+            <svg width="30" height="30" viewbox="0 0 40 40">
+            <path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+            </svg></a>
+        	<ul>
+        		<li>
+        			<a href="#">Story Index</a>
+        		</li>
+        		<li>
+        			<a href="#">Gallery</a>
+        		</li>
+        		<li>
+        			<a href="#">About the Author</a>
+        		</li>
+            <li class="copyright">
+              © 2018
+            </li>
+        	</ul>
+        </div>
+
+    </div>
+
+<div class="container content-body">
+
+	<div class="row">
+		<div class="page-title-body">
+			<div class="page-title">
+        <h1>Absolution</h1>
+        <h2>Chapter 1: At the Museum</h2>
+      </div>
+		</div>
+	</div>
+  <div class="row">
+    <div class="story-info-btns">
+      <a href="#"><button>Previous</button></a>
+      <a href="#"><button>Chapter Index</button></a>
+      <a href="index.html"><button>Back to Story Index</button></a>
+      <a href="#"><button>Next</button></a>
+    </div>
+  </div>
+
+	<div class="row">
+    <div class="story-body">
+      <p>
+        Lorem ipsum dolor sit amet, ad option principes sed, ius vidit delicata eu. Eu pro aeterno copiosae dissentiet. Id quodsi offendit usu, vix te scripta epicurei senserit, error zril his et. Sit eu nullam euripidis scribentur, et habeo decore nec. Usu ad elit graece veritus.
+      </p>
+
+      <p>
+        Vim in aliquam dissentiunt, utroque delicatissimi eum et. Te pri vocibus appetere conclusionemque, omnes fierent placerat an mei, eum ut omnes bonorum. Ut homero complectitur his, an vel purto fierent constituto. In eruditi consectetuer mei, ea fabulas similique repudiandae ius, prima referrentur cum ex. Id duo vidit antiopam. Vis an aeque iusto quodsi, pri oporteat singulis democritum ut.
+      </p>
+
+      <p>
+        Debet homero nominati te mel. Has nisl percipit quaerendum et. Mea cu putent virtute epicuri, mel decore mentitum verterem in, sale tritani mediocrem an ius. Vim tation doctus feugiat te, elaboraret complectitur te mei. Eam cu percipit disputando, nisl populo convenire ut ius.
+      </p>
+
+      <p>
+        Aperiri admodum mediocritatem qui id, nam errem omnium eu, mea omittam scribentur ne. Ei duo ubique vidisse efficiantur. Ea oratio officiis ullamcorper eam, ex sea delenit recteque. Eam et dicta rationibus. Est et quas virtute. Id pri latine atomorum disputando.
+      </p>
+
+      <p>
+        Mel tota appetere consectetuer ei, et dolorum atomorum per, alii omnesque liberavisse te per. Congue sanctus ne mel, pri corpora gloriatur an. Modus vocent delicata has ut. Wisi delectus torquatos ut ius. Ea libris populo sed, mea cetero prompta feugait cu.
+      </p>
+
+    </div>
+
+	</div>
+
+</div>
+
+
+<script>
+function openNavM() {
+    document.getElementById("sideNavigation-m").style.height = "290px";
+    document.getElementById("main").style.marginTop = "250px";
+}
+
+function closeNavM() {
+    document.getElementById("sideNavigation-m").style.height = "0";
+    document.getElementById("main").style.marginTop = "0";
+}
+
+
+function openNav() {
+    document.getElementById("sideNavigation").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sideNavigation").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
