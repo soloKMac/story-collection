@@ -131,6 +131,7 @@ button:hover {
 .story-info-btns {
 	margin: 0 auto;
 	padding: 20px;
+	text-align: center;
 }
 .story-info-btns a {
 	padding: 6px 10px;
