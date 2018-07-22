@@ -96,10 +96,10 @@
 	</div>
   <div class="row">
     <div class="story-info-btns">
-      <a href="#" onclick="getPrev">Previous</a>
-      <a href="absolution.html">Chapter Index</a>
-      <a href="index.html">Back to Story Index</a>
-      <a href="#" onclick="getNxt">Next</a>
+      <a href="javascript:goback()" alt="Previous">Previous</a>
+      <a href="absolution.html" alt="Back to Chapter Index">Chapter Index</a>
+      <a href="index.html" alt="Back to Story Index">Back to Story Index</a>
+      <a href="javascript:goforward()" alt="Next">Next</a>
     </div>
   </div>
 
@@ -130,8 +130,12 @@
 	</div>
 
 </div>
+</body>
+<!-- Navigation script link -->
+<script>var ThisPageNumber=0;</script>
+<script src="../../js/cycle.js"></script>
 
-
+<!-- Side menu script -->
 <script>
 function openNavM() {
     document.getElementById("sideNavigation-m").style.height = "290px";

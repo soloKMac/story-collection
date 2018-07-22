@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-		<link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-reboot.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/bootstrap-grid.css" />
 		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-    <title>Absolution - Chapter 1: At the Museum</title>
+    <title>Absolution - Chapter 2: Family Duties</title>
   </head>
   <body id="background-index">
 
@@ -90,16 +90,16 @@
 		<div class="page-title-body">
 			<div class="page-title">
         <h1>Absolution</h1>
-        <h2>Chapter 1: At the Museum</h2>
+        <h2>Chapter 2: Family Duties</h2>
       </div>
 		</div>
 	</div>
   <div class="row">
     <div class="story-info-btns">
-      <a href="#" onclick="getPrevd">Previous</a>
+      <a href="javascript:goback()" alt="Previous">Previous</a>
       <a href="absolution.html">Chapter Index</a>
       <a href="index.html">Back to Story Index</a>
-      <a href="#" onclick="getNxt">Next</a>
+      <a href="javascript:goforward()" alt="Next">Next</a>
     </div>
   </div>
 
@@ -130,7 +130,11 @@
 	</div>
 
 </div>
+</body>
 
+<!-- Navigation script link -->
+<script>var ThisPageNumber=1;</script>
+<script src="../../js/cycle.js"></script>
 
 <script>
 function openNavM() {
