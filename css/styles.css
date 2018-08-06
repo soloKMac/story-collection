@@ -18,6 +18,7 @@ body {
     url("../img/lennart-heim-433084-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: auto;
 }
 
 #background-absolute {
@@ -28,6 +29,7 @@ body {
     url("../img/jonathan-denney-259703-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: auto;
 }
 
 #background-empress {
@@ -38,7 +40,7 @@ body {
 		url("../img/dhaval-parmar-529684-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	height: auto;
 }
 
 a {
