@@ -43,6 +43,13 @@ body {
 	height: auto;
 }
 
+#background-chapter {
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.85) 0%,rgba(255,255,255,0.80) 1%,rgba(255,255,255,0) 100%), -webkit-linear-gradient(top, rgba(22,0,117,0.95) 0%,rgba(22,0,117,0.95) 1%,rgba(22, 0, 117, 0.40) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+}
+
 a {
 	color: #fff;
 }
