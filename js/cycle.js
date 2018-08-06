@@ -1,4 +1,8 @@
 /* Cycle through chapters in the story*/
+var iron-chapters=new Array(
+"iron-ch1.html",
+"iron-ch2.html",
+"iron-ch3.html");
 
 var chapters=new Array(
 "abso-ch1.html",
