@@ -21,8 +21,6 @@ var A=StringA.lastIndexOf("/")+1;
 
 ThisFilename=StringA.substring(A,LengthA);
 
-
-
 //Now we find the current page nunmber (in the list)
 
 //Remember that Arrays start at 0 and end at number of
